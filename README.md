@@ -1,7 +1,5 @@
 # Maze Path Planning using OMPL and Image Parsing
 
-### Ayon Dey
-
 ## Overview
 
 This project demonstrates how to solve a maze environment using the OMPL (Open
