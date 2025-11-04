@@ -1,0 +1,4 @@
+/motion_planner/build/CMakeFiles/motion_planner.dir
+/motion_planner/build/CMakeFiles/motion_planner_img_parser.dir
+/motion_planner/build/CMakeFiles/edit_cache.dir
+/motion_planner/build/CMakeFiles/rebuild_cache.dir

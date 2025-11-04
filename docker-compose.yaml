@@ -1,0 +1,16 @@
+version: '3.0'
+
+services:
+  ompl:
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: ompl
+    privileged: true
+    volumes:
+      - ./motion_planner:/motion_planner
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    devices:
+    - /dev:/dev
+    command: /bin/sh -c "while sleep 1000; do :; done"
